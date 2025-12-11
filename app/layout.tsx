@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://video-copyer.com"),
+  metadataBase: new URL("https://www.videocopyer.com"),
   title: {
     default: "Video Copyer - AI Viral Video Replica",
     template: "%s | Video Copyer",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://video-copyer.com",
+    url: "https://www.videocopyer.com",
     title: "Video Copyer - AI Viral Video Replica",
     description:
       "Replicate viral hits in seconds. The AI-powered video content creation engine.",
