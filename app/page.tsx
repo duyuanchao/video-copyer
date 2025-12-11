@@ -13,6 +13,8 @@ export default function LandingPage() {
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
             <Link href="#features" className="hover:text-foreground transition-colors">Features</Link>
+            <Link href="/tools" className="hover:text-foreground transition-colors">Free Tools</Link>
+            <Link href="/templates" className="hover:text-foreground transition-colors">Templates</Link>
             <Link href="#showcase" className="hover:text-foreground transition-colors">Showcase</Link>
             <Link href="#pricing" className="hover:text-foreground transition-colors">Pricing</Link>
           </nav>
@@ -100,6 +102,62 @@ export default function LandingPage() {
                   Assistive creativity from 0 to 1. Input product selling points or creative directions, and AI outputs storyboards and automatically matches footage to create a video.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-24 border-t border-white/5">
+          <div className="container px-4 mx-auto max-w-3xl">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              <details className="group border border-white/10 rounded-xl bg-white/5 open:bg-white/[0.07] transition-all duration-300">
+                <summary className="flex cursor-pointer items-center justify-between p-6 font-medium text-lg outline-none [&::-webkit-details-marker]:hidden">
+                  How does Video Copyer replicate viral videos?
+                  <span className="ml-4 shrink-0 text-white/50 group-open:rotate-180 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </span>
+                </summary>
+                <div className="px-6 pb-6 text-muted-foreground leading-relaxed">
+                  <p>Our AI decodes the 'DNA' of viral hits using the proven 'Hook-Retain-Reward' framework. It analyzes pattern interrupts, visual pacing (cutting every 2-3 seconds), and emotional hooks to generate a new script that follows the exact structural logic of millions-viewed content.</p>
+                </div>
+              </details>
+
+              <details className="group border border-white/10 rounded-xl bg-white/5 open:bg-white/[0.07] transition-all duration-300">
+                <summary className="flex cursor-pointer items-center justify-between p-6 font-medium text-lg outline-none [&::-webkit-details-marker]:hidden">
+                  Can I use this for TikTok and Instagram Reels?
+                  <span className="ml-4 shrink-0 text-white/50 group-open:rotate-180 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </span>
+                </summary>
+                <div className="px-6 pb-6 text-muted-foreground leading-relaxed">
+                  <p>Yes. The engine is specifically tuned for vertical short-form algorithms (9:16 aspect ratio). It optimizes for retention metrics favored by TikTok and Reels, including loopability and trending audio alignment.</p>
+                </div>
+              </details>
+
+              <details className="group border border-white/10 rounded-xl bg-white/5 open:bg-white/[0.07] transition-all duration-300">
+                <summary className="flex cursor-pointer items-center justify-between p-6 font-medium text-lg outline-none [&::-webkit-details-marker]:hidden">
+                  Is there a free trial?
+                  <span className="ml-4 shrink-0 text-white/50 group-open:rotate-180 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </span>
+                </summary>
+                <div className="px-6 pb-6 text-muted-foreground leading-relaxed">
+                  <p>Yes, we offer a free tier that allows you to analyze up to 3 videos per day and generate limited scripts. No credit card required.</p>
+                </div>
+              </details>
+
+              <details className="group border border-white/10 rounded-xl bg-white/5 open:bg-white/[0.07] transition-all duration-300">
+                <summary className="flex cursor-pointer items-center justify-between p-6 font-medium text-lg outline-none [&::-webkit-details-marker]:hidden">
+                  Do I need video editing skills?
+                  <span className="ml-4 shrink-0 text-white/50 group-open:rotate-180 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </span>
+                </summary>
+                <div className="px-6 pb-6 text-muted-foreground leading-relaxed">
+                  <p>No. Our Intelligent Creation tool handles the heavy lifting: automated b-roll matching, AI voiceover synchronization, and auto-captioning. You focus on the creative direction; we handle the timeline.</p>
+                </div>
+              </details>
             </div>
           </div>
         </section>
