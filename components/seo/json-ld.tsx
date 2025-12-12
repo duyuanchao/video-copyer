@@ -13,11 +13,7 @@ export default function JsonLd() {
             priceCurrency: "USD",
         },
         description: "AI-powered video content creation engine that helps you mimic viral hits.",
-        aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: "4.8",
-            ratingCount: "120",
-        },
+
     };
 
     const faqLd = {
